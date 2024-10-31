@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIISI AISTIA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>VIISI AISTIA</h1>
+        <div class="game-board">
+            <img src="kuva1.avif" alt="Kuva 1" onclick="playSound('aani1', this)">
+            <img src="kuva2.avif" alt="Kuva 2" onclick="playSound('aani2', this)">
+            <img src="kuva3.avif" alt="Kuva 3" onclick="playSound('aani3', this)">
+            <div class="bottom-row">
+                <img src="kuva4.avif" alt="Kuva 4" onclick="playSound('aani4', this)">
+                <img src="kuva5.avif" alt="Kuva 5" onclick="playSound('aani5', this)">
+            </div>
+        </div>
+        <img src="seis.avif" alt="Seis" class="stop-button" onclick="stopAllSounds()">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
